@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLog</servlet-name>
+    <servlet-class>com.mstanford.Servlet.AdminLog</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLogList</servlet-name>
+    <servlet-class>com.mstanford.Servlet.AdminLogList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuildingAddSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.BuildingAddSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuildingDel</servlet-name>
+    <servlet-class>com.mstanford.Servlet.BuildingDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuildingManager</servlet-name>
+    <servlet-class>com.mstanford.Servlet.BuildingManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuildingUpdate</servlet-name>
+    <servlet-class>com.mstanford.Servlet.BuildingUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuildingUpdateSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.BuildingUpdateSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DomitoryAdd</servlet-name>
+    <servlet-class>com.mstanford.Servlet.DomitoryAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DomitoryAddSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.DomitoryAddSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DomitoryDel</servlet-name>
+    <servlet-class>com.mstanford.Servlet.DomitoryDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DomitoryManager</servlet-name>
+    <servlet-class>com.mstanford.Servlet.DomitoryManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DomitoryUpdate</servlet-name>
+    <servlet-class>com.mstanford.Servlet.DomitoryUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DomitoryUpdateSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.DomitoryUpdateSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogAdd</servlet-name>
+    <servlet-class>com.mstanford.Servlet.LogAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogAddSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.LogAddSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyLog</servlet-name>
+    <servlet-class>com.mstanford.Servlet.MyLog</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyLogList</servlet-name>
+    <servlet-class>com.mstanford.Servlet.MyLogList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyLogStudent</servlet-name>
+    <servlet-class>com.mstanford.Servlet.MyLogStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyStudentList</servlet-name>
+    <servlet-class>com.mstanford.Servlet.MyStudentList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OutList</servlet-name>
+    <servlet-class>com.mstanford.Servlet.OutList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PasswordUpdateSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.PasswordUpdateSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Quit</servlet-name>
+    <servlet-class>com.mstanford.Servlet.Quit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentAddSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentAddSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentDel</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentLog</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentLog</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentManager</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentQC</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentQC</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentQCSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentQCSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentRZ</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentRZ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentRZSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentRZSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentTH</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentTH</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentTHSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentTHSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentUpdate</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentUpdateSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.StudentUpdateSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TBAddSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.TBAddSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TBDel</servlet-name>
+    <servlet-class>com.mstanford.Servlet.TBDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TBManager</servlet-name>
+    <servlet-class>com.mstanford.Servlet.TBManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherAddSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.TeacherAddSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherDel</servlet-name>
+    <servlet-class>com.mstanford.Servlet.TeacherDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherManager</servlet-name>
+    <servlet-class>com.mstanford.Servlet.TeacherManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherUpdate</servlet-name>
+    <servlet-class>com.mstanford.Servlet.TeacherUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherUpdateSave</servlet-name>
+    <servlet-class>com.mstanford.Servlet.TeacherUpdateSave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherTable</servlet-name>
+    <servlet-class>com.mstanford.Servlet.TeacherTable</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyStudent</servlet-name>
+    <servlet-class>com.mstanford.Servlet.MyStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoLogin</servlet-name>
+    <servlet-class>com.mstanford.Servlet.GoLogin</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminLog</servlet-name>
+    <url-pattern>/AdminLog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogList</servlet-name>
+    <url-pattern>/AdminLogList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuildingAddSave</servlet-name>
+    <url-pattern>/BuildingAddSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuildingDel</servlet-name>
+    <url-pattern>/BuildingDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuildingManager</servlet-name>
+    <url-pattern>/BuildingManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuildingUpdate</servlet-name>
+    <url-pattern>/BuildingUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuildingUpdateSave</servlet-name>
+    <url-pattern>/BuildingUpdateSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DomitoryAdd</servlet-name>
+    <url-pattern>/DomitoryAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DomitoryAddSave</servlet-name>
+    <url-pattern>/DomitoryAddSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DomitoryDel</servlet-name>
+    <url-pattern>/DomitoryDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DomitoryManager</servlet-name>
+    <url-pattern>/DomitoryManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DomitoryUpdate</servlet-name>
+    <url-pattern>/DomitoryUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DomitoryUpdateSave</servlet-name>
+    <url-pattern>/DomitoryUpdateSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogAdd</servlet-name>
+    <url-pattern>/LogAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogAddSave</servlet-name>
+    <url-pattern>/LogAddSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyLog</servlet-name>
+    <url-pattern>/MyLog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyLogList</servlet-name>
+    <url-pattern>/MyLogList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyLogStudent</servlet-name>
+    <url-pattern>/MyLogStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyStudentList</servlet-name>
+    <url-pattern>/MyStudentList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OutList</servlet-name>
+    <url-pattern>/OutList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PasswordUpdateSave</servlet-name>
+    <url-pattern>/PasswordUpdateSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Quit</servlet-name>
+    <url-pattern>/Quit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentAddSave</servlet-name>
+    <url-pattern>/StudentAddSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentDel</servlet-name>
+    <url-pattern>/StudentDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentLog</servlet-name>
+    <url-pattern>/StudentLog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentManager</servlet-name>
+    <url-pattern>/StudentManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentQC</servlet-name>
+    <url-pattern>/StudentQC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentQCSave</servlet-name>
+    <url-pattern>/StudentQCSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentRZ</servlet-name>
+    <url-pattern>/StudentRZ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentRZSave</servlet-name>
+    <url-pattern>/StudentRZSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentTH</servlet-name>
+    <url-pattern>/StudentTH</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentTHSave</servlet-name>
+    <url-pattern>/StudentTHSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentUpdate</servlet-name>
+    <url-pattern>/StudentUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentUpdateSave</servlet-name>
+    <url-pattern>/StudentUpdateSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TBAddSave</servlet-name>
+    <url-pattern>/TBAddSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TBDel</servlet-name>
+    <url-pattern>/TBDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TBManager</servlet-name>
+    <url-pattern>/TBManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherAddSave</servlet-name>
+    <url-pattern>/TeacherAddSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherDel</servlet-name>
+    <url-pattern>/TeacherDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherManager</servlet-name>
+    <url-pattern>/TeacherManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherUpdate</servlet-name>
+    <url-pattern>/TeacherUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherUpdateSave</servlet-name>
+    <url-pattern>/TeacherUpdateSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherTable</servlet-name>
+    <url-pattern>/TeacherTable</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyStudent</servlet-name>
+    <url-pattern>/MyStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoLogin</servlet-name>
+    <url-pattern>/GoLogin</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
